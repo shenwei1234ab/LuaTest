@@ -1,0 +1,7 @@
+dofile 函数
+
+dofile("F:\\lua\\project\\Test1\\Hellolua.lua");
+
+
+
+
