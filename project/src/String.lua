@@ -12,4 +12,9 @@ s2='a "problematic\\"'
 print(s);
 print(string.format("%q",s2));
 
+
+s = "hello world"
+i,j = string.find(s,"hello")
+print(i,j)
+
 --endregion

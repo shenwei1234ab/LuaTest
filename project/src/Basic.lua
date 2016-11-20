@@ -3,7 +3,7 @@ function MyFunction()
 end
 --载入某个lua文件
 --dofile("F:\\lua\\project\\src\\Hellolua.lua");
-dofile("F:\\lua\\project\\src\\metable.lua");
+dofile("F:\\lua\\LuaTest\\project\\src\\MyTest.lua");
 
 print("end");
 a = io.read("*number");

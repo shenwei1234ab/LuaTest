@@ -52,7 +52,9 @@ print(getmetatable(s1))
 print(getmetatable(s2))
 mt.__add = Set.union
 mt.__sub = Set.intersection
+mt.__tostring = Set.tostring
 
 s3=s1-s2
-Set.print(s3)
+--Set.print(s3)
+print(s1)
 --endregion
