@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\C++\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\C++\CTest.cpp" />
+    <Content Include="src\C++\error.h" />
+    <Content Include="src\C++\LoadFile.h" />
+    <Content Include="src\C++\LoadFunction.h" />
+    <Content Include="src\C++\LoadTable.h" />
+    <Content Include="src\C++\SetJmp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Basic.lua" />
+    <Compile Include="src\build.lua" />
+    <Compile Include="src\C++\CLib.lua" />
+    <Compile Include="src\class.lua" />
+    <Compile Include="src\config.lua" />
+    <Compile Include="src\Coroutine.lua" />
+    <Compile Include="src\Data.lua" />
+    <Compile Include="src\DataStruct.lua" />
+    <Compile Include="src\debug.lua" />
+    <Compile Include="src\Envirement.lua" />
+    <Compile Include="src\Function.lua" />
+    <Compile Include="src\Hellolua.lua" />
+    <Compile Include="src\ioLib.lua" />
+    <Compile Include="src\Iter.lua" />
+    <Compile Include="src\LoadC.lua" />
+    <Compile Include="src\CLib.lua" />
+    <Compile Include="src\metable.lua" />
+    <Compile Include="src\MyTest.lua" />
+    <Compile Include="src\Serialize.lua" />
+    <Compile Include="src\String.lua" />
+    <Compile Include="src\Table.lua" />
+    <Compile Include="src\TableLib.lua" />
+    <Compile Include="src\WeakTable.lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
