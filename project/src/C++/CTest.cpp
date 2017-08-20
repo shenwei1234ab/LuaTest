@@ -43,7 +43,10 @@ void HotSpain(const char *fileName)
 	//getchar();
 	lua_close(pLuaState);
 }
-int main(void)
+
+
+
+int main1(void)
 { 
 	int a, b;
 	const char *fileName = "F:\\lua\\LuaTest\\project\\src\\CLib.lua";

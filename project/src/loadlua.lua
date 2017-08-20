@@ -26,3 +26,9 @@ test1(n);
 print(n)
 
 
+
+function loadlua(x,y)
+    print("HelloLua");
+    return x+y;
+end
+
