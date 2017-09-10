@@ -33,7 +33,7 @@ luaL_Reg    funcs[] =
 
 int addTest1(lua_State* L)
 {
-	luaL_newlib(L, funcs);
+	//luaL_newlib(L, funcs);
 	return 1;
 }
 //Lua调用c++函数
@@ -53,7 +53,7 @@ void luaLoadFun()
 	//luaL_dostring(L, "mylib.test1(100,4)");
 
 	/// 建议方法2
-	luaL_requiref(L, "libs", addTest1, 1);
+	//luaL_requiref(L, "libs", addTest1, 1);
 	luaL_dostring(L, "libs.test1(100,1234)");
 }
 
